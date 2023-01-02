@@ -26,7 +26,7 @@ export default function About() {
                 </motion.h1>
                 <div className="my-4 lg:w-8/12">
                     <motion.p
-                        className="text-base leading-loose text-gray-700 text-justify"
+                        className="text-sm leading-relaxed text-gray-700 text-justify"
                         initial={{ opacity: 0, y: 100 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
@@ -49,8 +49,8 @@ export default function About() {
                     </h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div className="w-full">
-                        <div>
+                    <div className="w-full h-fit">
+                        <div className="h-full">
                             <motion.h1
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
@@ -73,12 +73,12 @@ export default function About() {
                                 </svg>
                             </div>
                         </div>
-                        <div className="overflow-hidden">
+                        <div className="">
                             <motion.p
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
-                                className="text-base leading-loose text-gray-700 text-justify"
+                                className="text-sm leading-relaxed text-gray-700 text-justify"
                             >
                                 We are a team of developers that create high
                                 quality websites. We are passionate about
@@ -87,8 +87,8 @@ export default function About() {
                             </motion.p>
                         </div>
                     </div>
-                    <div className="w-full">
-                        <div>
+                    <div className="w-full h-fit">
+                        <div className="h-full">
                             <motion.h1
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
@@ -111,9 +111,9 @@ export default function About() {
                                 </svg>
                             </div>
                         </div>
-                        <div className="overflow-hidden">
+                        <div className="">
                             <motion.p
-                                className="text-base leading-loose text-gray-700 text-justify"
+                                className="text-sm leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
@@ -127,8 +127,8 @@ export default function About() {
                             </motion.p>
                         </div>
                     </div>
-                    <div className="w-full">
-                        <div>
+                    <div className="w-full h-fit">
+                        <div className="h-full">
                             <motion.h1
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
@@ -151,9 +151,9 @@ export default function About() {
                                 </svg>
                             </div>
                         </div>
-                        <div className="overflow-hidden">
+                        <div className=" h-full">
                             <motion.p
-                                className="text-base leading-loose text-gray-700 text-justify"
+                                className="text-sm leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
