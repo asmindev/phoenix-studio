@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-primary {
+        color: #1a202c;
+    }
+    .text-secondary {
+        color: #2d3748;
+    }
+    .bg-primary {
+        @apply bg-neutral-50;
+    }
+    .bg-secondary {
+        @apply bg-neutral-100;
+    }
+    .btn-primary {
+        @apply bg-primary text-white;
+    }
+    .btn-secondary {
+        @apply bg-secondary text-white;
+    }
+    .smooth {
+        transition: all 0.3s ease-in-out;
+    }
+}
