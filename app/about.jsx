@@ -13,6 +13,7 @@ export default function About() {
                     className="text-xl font-bold text-gray-700"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, threshold: 0.5 }}
                     transition={{ duration: 0.5 }}
                 >
                     About Us
@@ -21,6 +22,7 @@ export default function About() {
                     className="text-6xl font-bold text-gray-700"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, threshold: 0.5 }}
                     transition={{ duration: 0.5 }}
                 >
                     Phoenix 021
@@ -30,6 +32,7 @@ export default function About() {
                         className="text-md leading-relaxed text-gray-700 text-justify"
                         initial={{ opacity: 0, y: 100 }}
                         whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, threshold: 0.5 }}
                         transition={{ duration: 0.5 }}
                     >
                         Phoenix adalah nama angkatan dari Teknik Informatika
@@ -59,6 +62,7 @@ export default function About() {
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 Web Development
@@ -81,6 +85,7 @@ export default function About() {
                             <motion.p
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                                 className="text-md leading-relaxed text-gray-700 text-justify"
                             >
@@ -126,6 +131,7 @@ export default function About() {
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 Design
@@ -149,6 +155,7 @@ export default function About() {
                                 className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 {/* ui ux designer */}
@@ -195,6 +202,7 @@ export default function About() {
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 Photo Editing
@@ -218,6 +226,7 @@ export default function About() {
                                 className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 {/* photo editor */}
@@ -263,6 +272,7 @@ export default function About() {
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 Digital Marketing
@@ -289,6 +299,7 @@ export default function About() {
                                 className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 {/* photo editor */}
@@ -335,6 +346,7 @@ export default function About() {
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 Video Editing
@@ -360,6 +372,7 @@ export default function About() {
                                 className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 {/* photo editor */}
@@ -406,6 +419,7 @@ export default function About() {
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 Photography
@@ -437,6 +451,7 @@ export default function About() {
                                 className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 {/* photo editor */}
@@ -484,6 +499,7 @@ export default function About() {
                                 className="text-2xl font-bold text-gray-700"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 Gaming
@@ -507,6 +523,7 @@ export default function About() {
                                 className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, threshold: 0.5 }}
                                 transition={{ duration: 0.5 }}
                             >
                                 {/* photo editor */}
