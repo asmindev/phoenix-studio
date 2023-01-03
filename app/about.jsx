@@ -27,7 +27,7 @@ export default function About() {
                 </motion.h1>
                 <div className="my-4 lg:w-8/12">
                     <motion.p
-                        className="text-sm leading-relaxed text-gray-700 text-justify"
+                        className="text-md leading-relaxed text-gray-700 text-justify"
                         initial={{ opacity: 0, y: 100 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
@@ -82,7 +82,7 @@ export default function About() {
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
-                                className="text-sm leading-relaxed text-gray-700 text-justify"
+                                className="text-md leading-relaxed text-gray-700 text-justify"
                             >
                                 Kami mengerjakan berbagai macam website mulai
                                 dari website profile, website e-commerce,
@@ -146,7 +146,7 @@ export default function About() {
                         </div>
                         <div className="">
                             <motion.p
-                                className="text-sm leading-relaxed text-gray-700 text-justify"
+                                className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
@@ -215,7 +215,7 @@ export default function About() {
                         </div>
                         <div className=" h-full">
                             <motion.p
-                                className="text-sm leading-relaxed text-gray-700 text-justify"
+                                className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
@@ -286,7 +286,7 @@ export default function About() {
                         </div>
                         <div className=" h-full">
                             <motion.p
-                                className="text-sm leading-relaxed text-gray-700 text-justify"
+                                className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
@@ -357,7 +357,7 @@ export default function About() {
                         </div>
                         <div className=" h-full">
                             <motion.p
-                                className="text-sm leading-relaxed text-gray-700 text-justify"
+                                className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
@@ -434,7 +434,7 @@ export default function About() {
                         </div>
                         <div className=" h-full">
                             <motion.p
-                                className="text-sm leading-relaxed text-gray-700 text-justify"
+                                className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
@@ -504,7 +504,7 @@ export default function About() {
                         </div>
                         <div className=" h-full">
                             <motion.p
-                                className="text-sm leading-relaxed text-gray-700 text-justify"
+                                className="text-md leading-relaxed text-gray-700 text-justify"
                                 initial={{ opacity: 0, y: 100 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 }}
